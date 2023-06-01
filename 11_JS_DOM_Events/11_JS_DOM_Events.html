@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Events</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">JS DOM Events</a>
+</nav>
+
+
+<!-- Button Click -->
+<div>
+    <h1 id="message"></h1>
+    <button onclick="displayMessage('Good Morning','limegreen')">Good Morning</button>
+    <button onclick="displayMessage('Good Afternoon','orangered')">Good Afternoon</button>
+    <button onclick="displayMessage('Good Evening','purple')">Good Evening</button>
+    <button onclick="displayMessage('Good Night','black')">Good Night</button>
+</div>
+
+<!-- Button Click with event listeners -->
+<div>
+    <h1 id="message_2"></h1>
+    <button id="gm">Good Morning</button>
+    <button id="ga">Good Afternoon</button>
+    <button id="ge">Good Evening</button>
+    <button id="gn">Good Night</button>
+</div>
+
+<!-- Change Images -->
+<div>
+    <img src="../img/main_1.jpg" alt="" id="food-image">
+    <button onclick="changeImage('breads_1.jpg')">Image 1</button>
+    <button onclick="changeImage('desert_1.jpg')">Image 2</button>
+    <button onclick="changeImage('fried_1.jpg')">Image 3</button>
+    <button onclick="changeImage('green_1.jpg')">Image 4</button>
+    <button onclick="changeImage('other_1.jpg')">Image 5</button>
+    <button onclick="changeImage('main_2.jpg')">Image 6</button>
+    <button onclick="changeImage('other_4.jpg')">Image 7</button>
+</div>
+
+<script src="11_script.js"></script>
+</body>
+</html>

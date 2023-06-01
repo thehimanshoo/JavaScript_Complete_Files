@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Events</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">JS DOM Events Three</a>
+</nav>
+
+<section class="buttons-section">
+    <button id="all-emp-btn">All Employees</button>
+    <button id="male-emp-btn">Male Employees</button>
+    <button id="female-emp-btn">Female Employees</button>
+    <form>
+        <input type="search" placeholder="Employee Name" id="emp-search">
+    </form>
+    <!-- Employee Count -->
+    <p>The Records Found : <span id="count"></span></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>SNO</th>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>EMAIL</th>
+                <th>GENDER</th>
+                <th>COUNTRY</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+    </table>
+</section>
+
+<script src="employeeStore.js"></script>
+<script src="11_script.js"></script>
+</body>
+</html>

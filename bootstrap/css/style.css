@@ -1,0 +1,41 @@
+/* Your custom styles */
+.bg-teal{
+    background: linear-gradient(45deg,black,teal);
+}
+.btn{
+    font-size: 30px;
+    padding: 0.1rem 1.5rem;
+}
+input{
+    font-size: 18px;
+    height: 45px !important;
+}
+
+.btn-primary , .bg-primary{
+    background: linear-gradient(45deg,black,#4285f4);
+}
+.btn-secondary , .bg-secondary{
+    background: linear-gradient(45deg,black,#aa66cc);
+}
+.btn-success, .bg-success{
+    background: linear-gradient(45deg,black,#00c851);
+}
+.btn-info , .bg-info{
+    background: linear-gradient(45deg,black,#33b5e5);
+}
+.btn-warning , .bg-warning{
+    background: linear-gradient(45deg,black,coral);
+}
+
+.btn-danger , .bg-danger{
+    background: linear-gradient(45deg,black,#ff3547);
+}
+
+.btn-light , .bg-light{
+    background: linear-gradient(45deg,darkgrey,darkgrey);
+    color: white !important;
+}
+.btn-dark , .bg-dark{
+    background: linear-gradient(45deg,black,black);
+}
+
